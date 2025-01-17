@@ -1,0 +1,11 @@
+.theme-toggle-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #232323;
+}
+
+body.dark .theme-toggle-button {
+    color: white;
+}

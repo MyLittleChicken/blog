@@ -1,0 +1,29 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateY(90%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5%; /* 기존 10px에서 3배로 증가 */
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.footer.hovered {
+    transform: translateY(0);
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icon {
+    color: white; /* 아이콘 색상 */
+    font-size: 24px; /* 아이콘 크기 */
+    cursor: pointer;
+    display: flex;
+}

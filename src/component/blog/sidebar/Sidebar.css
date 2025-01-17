@@ -1,0 +1,34 @@
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-icon {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tree-view ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tree-view li {
+    margin: 10px 0;
+}

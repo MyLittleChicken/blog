@@ -1,0 +1,11 @@
+.scroll-to-top {
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scroll-to-top.visible {
+    display: block;
+}
